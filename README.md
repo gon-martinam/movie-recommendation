@@ -1,6 +1,6 @@
 # Movie recommendation system
 
-"I've already finished watching my favourite movie.... Now what?
+"I've already finished watching my favourite movie.... Now what?"
 I have often found myself in this situation.... I'm sure you have too, and how annoying it is to find something that will interest me! We don't always have as much time as we'd like, so it's always good to watch content that matches what we like.
 
 That's why I decided to create a film recommender, so that I don't have to waste time searching manually and still choose something I don't really like!
