@@ -1,20 +1,19 @@
 # Movie recommendation system
 
-“I don’t want a full report, just give me a summary of the results”. I have often found myself in this situation – both in college as well as my professional life. We prepare a comprehensive report and the teacher/supervisor only has time to read the summary.
+"I've already finished watching my favourite movie.... Now what?
+I have often found myself in this situation.... I'm sure you have too, and how annoying it is to find something that will interest me! We don't always have as much time as we'd like, so it's always good to watch content that matches what we like.
 
-Sounds familiar? Well, I decided to do something about it. Manually converting the report to a summarized version is too time taking, right? Could I lean on Natural Language Processing (NLP) techniques to help me out?
-
-This is where the awesome concept of Text Summarization using Deep Learning really helped me out. It solves the one issue which kept bothering me before – now our model can understand the context of the entire text. It’s a dream come true for all of us who need to come up with a quick summary of a document!
+That's why I decided to create a film recommender, so that I don't have to waste time searching manually and still choose something I don't really like!
 
 ## Project description
-✏️ - Thanks to an LSTM recurrent neural network, it is possible to summarise Amazon product reviews in two or three words, while maintaining the overall meaning of the unabridged text.
+✏️ - Thanks to a Tf-idf matrix and other techniques it is possible to obtain the similarity between a given movie and the rest of movies.
 
 🛠 - Jupyter Notebooks have been used because of their ease of use and convenience for exploratory data analysis, along with the Python language.
 
-🚩 - The main challenge was to understand how recurrent neural networks, in particular LSTM networks, work. In addition, it was necessary to review concepts related to NLP.
+🚩 - The main challenge was to understand how to find the similarity between a given movie and the rest of the movies, because not all the movies well rated may be of my interest (e.g. Toy Story is very well rated. However, that doesn't mean I'd be interested in it, but that it's a very beloved movie by everyone).
 
 ## How to use the project
-There is no executable. The notebook with the text summarizer and the attention layer needed for the project can be found in the "src" folder.
+There is no executable. The notebook with the movie recommender system can be found in the "src" folder.
 
 ## Future lines of research
 - [ ] Improving the recommendations by modifying some of the parameters.
